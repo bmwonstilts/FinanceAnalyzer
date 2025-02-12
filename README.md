@@ -223,29 +223,65 @@ The goal of this project is to build a self-hostable web application that allows
 ---
 
 ## Git Repository Structure
-```bash
-paystub-analyzer/
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── models.py
-│   │   ├── routes.py
-│   │   └── utils.py
-│   ├── requirements.txt
-│   └── Dockerfile
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   ├── package.json
-│   └── Dockerfile
-├── docker-compose.yml
-├── README.md
-└── .gitignore
-```
+
+## paystub-analyzer/
+| Level 1               | Level 2               | Level 3               | Level 4               | Level 5               | Checkbox |
+|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|----------|
+| **backend/**          |                       |                       |                       |                       | [X]      |
+|                       | **app/**              |                       |                       |                       | [X]      |
+|                       |                       | __init__.py           |                       |                       | [X]      |
+|                       |                       | models.py             |                       |                       | [X]      |
+|                       |                       | **routes/**           |                       |                       | [X]      |
+|                       |                       |                       | __init__.py           |                       | [X]      |
+|                       |                       |                       | auth.py               |                       | [X]      |
+|                       |                       |                       | upload.py             |                       | [X]      |
+|                       |                       |                       | dashboard.py          |                       | [X]      |
+|                       |                       | **utils/**            |                       |                       | [X]      |
+|                       |                       |                       | __init__.py           |                       | [X]      |
+|                       |                       |                       | file_processor.py     |                       | [X]      |
+|                       |                       |                       | pdf_parser.py         |                       | [X]      |
+|                       |                       | config.py             |                       |                       | [X]      |
+|                       | requirements.txt      |                       |                       |                       | [ ]      |
+|                       | Dockerfile            |                       |                       |                       | [X]      |
+| **frontend/**         |                       |                       |                       |                       | [X]      |
+|                       | **public/**           |                       |                       |                       | [X]      |
+|                       |                       | index.html            |                       |                       | [ ]      |
+|                       |                       | favicon.ico           |                       |                       | [ ]      |
+|                       |                       | manifest.json         |                       |                       | [ ]      |
+|                       | **src/**              |                       |                       |                       | [X]      |
+|                       |                       | **components/**       |                       |                       | [X]      |
+|                       |                       |                       | **ui/**               |                       | [X]      |
+|                       |                       |                       |                       | card.jsx              | [ ]      |
+|                       |                       |                       |                       | button.jsx            | [ ]      |
+|                       |                       |                       | **Dashboard/**        |                       | [X]      |
+|                       |                       |                       |                       | Dashboard.jsx         | [ ]      |
+|                       |                       |                       |                       | ChartComponent.jsx    | [ ]      |
+|                       |                       |                       | **Transactions/**     |                       | [X]      |
+|                       |                       |                       |                       | TransactionList.jsx   | [ ]      |
+|                       |                       |                       |                       | TransactionFilters.jsx| [ ]      |
+|                       |                       |                       | **Upload/**           |                       | [X]      |
+|                       |                       |                       |                       | FileUpload.jsx        | [X]      |
+|                       |                       |                       |                       | UploadStatus.jsx      | [X]      |
+|                       |                       | **pages/**            |                       |                       | [X]      |
+|                       |                       |                       | HomePage.jsx          |                       | [X]      |
+|                       |                       |                       | DashboardPage.jsx     |                       | [X]      |
+|                       |                       |                       | TransactionsPage.jsx  |                       | [X]      |
+|                       |                       |                       | UploadPage.jsx        |                       | [X]      |
+|                       |                       | **services/**         |                       |                       | [X]      |
+|                       |                       |                       | api.js                |                       | [ ]      |
+|                       |                       |                       | auth.js               |                       | [ ]      |
+|                       |                       |                       | storage.js            |                       | [ ]      |
+|                       |                       | **utils/**            |                       |                       | [X]      |
+|                       |                       |                       | formatters.js         |                       | [ ]      |
+|                       |                       |                       | validators.js         |                       | [ ]      |
+|                       |                       | App.js                |                       |                       | [X]      |
+|                       |                       | index.js              |                       |                       | [ ]      |
+|                       | package.json          |                       |                       |                       | [ ]      |
+|                       | Dockerfile            |                       |                       |                       | [X]      |
+| docker-compose.yml    |                       |                       |                       |                       | [X]      |
+| README.md             |                       |                       |                       |                       | [X]      |
+| .gitignore            |                       |                       |                       |                       | [ ]      |
+| nginx.conf            |                       |                       |                       |                       | [X]      |
 
 ---
 

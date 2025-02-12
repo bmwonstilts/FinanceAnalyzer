@@ -1,0 +1,23 @@
+# frontend/Dockerfile
+FROM node:16-alpine
+
+WORKDIR /app
+
+# Install dependencies
+COPY package.json package-lock.json ./
+RUN npm ci
+
+# Copy application code
+COPY . .
+
+# Build the application
+RUN npm run build
+
+# Install serve to run the built application
+RUN npm install -g serve
+
+# Expose port
+EXPOSE 3000
+
+# Run the application
+CMD ["serve", "-s", "build", "-l", "3000"]

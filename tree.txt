@@ -1,0 +1,55 @@
+paystub-analyzer/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── auth.py
+│   │   │   ├── upload.py
+│   │   │   └── dashboard.py
+│   │   ├── utils/
+│   │   │   ├── __init__.py
+│   │   │   ├── file_processor.py
+│   │   │   └── pdf_parser.py
+│   │   └── config.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ui/
+│   │   │   │   ├── card.jsx
+│   │   │   │   └── button.jsx
+│   │   │   ├── Dashboard/
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   └── ChartComponent.jsx
+│   │   │   ├── Transactions/
+│   │   │   │   ├── TransactionList.jsx
+│   │   │   │   └── TransactionFilters.jsx
+│   │   │   └── Upload/
+│   │   │       ├── FileUpload.jsx
+│   │   │       └── UploadStatus.jsx
+│   │   ├── pages/
+│   │   │   ├── HomePage.jsx
+│   │   │   ├── DashboardPage.jsx
+│   │   │   ├── TransactionsPage.jsx
+│   │   │   └── UploadPage.jsx
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   ├── auth.js
+│   │   │   └── storage.js
+│   │   ├── utils/
+│   │   │   ├── formatters.js
+│   │   │   └── validators.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── Dockerfile
+├── docker-compose.yml
+├── README.md
+└── .gitignore
