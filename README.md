@@ -222,25 +222,24 @@ The goal of this project is to build a self-hostable web application that allows
 
 ---
 
-## Git Repository Structure
-paystub-analyzer/
+## Git Repository Structurepaystub-analyzer/
 ├── backend/
-│ ├── app/
-│ │ ├── init.py
-│ │ ├── models.py
-│ │ ├── routes.py
-│ │ └── utils.py
-│ ├── requirements.txt
-│ └── Dockerfile
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── routes.py
+│   │   └── utils.py
+│   ├── requirements.txt
+│   └── Dockerfile
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── package.json
-│ └── Dockerfile
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── Dockerfile
 ├── docker-compose.yml
 ├── README.md
 └── .gitignore
