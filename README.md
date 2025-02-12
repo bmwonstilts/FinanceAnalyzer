@@ -222,7 +222,9 @@ The goal of this project is to build a self-hostable web application that allows
 
 ---
 
-## Git Repository Structurepaystub-analyzer/
+## Git Repository Structure
+```bash
+paystub-analyzer/
 ├── backend/
 │   ├── app/
 │   │   ├── __init__.py
@@ -243,6 +245,7 @@ The goal of this project is to build a self-hostable web application that allows
 ├── docker-compose.yml
 ├── README.md
 └── .gitignore
+```
 
 ---
 
