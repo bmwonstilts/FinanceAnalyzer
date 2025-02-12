@@ -227,61 +227,61 @@ The goal of this project is to build a self-hostable web application that allows
 ## paystub-analyzer/
 | Level 1               | Level 2               | Level 3               | Level 4               | Level 5               | Checkbox |
 |-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|----------|
-| **backend/**          |                       |                       |                       |                       | [X]      |
-|                       | **app/**              |                       |                       |                       | [X]      |
-|                       |                       | __init__.py           |                       |                       | [X]      |
-|                       |                       | models.py             |                       |                       | [X]      |
-|                       |                       | **routes/**           |                       |                       | [X]      |
-|                       |                       |                       | __init__.py           |                       | [X]      |
-|                       |                       |                       | auth.py               |                       | [X]      |
-|                       |                       |                       | upload.py             |                       | [X]      |
-|                       |                       |                       | dashboard.py          |                       | [X]      |
-|                       |                       | **utils/**            |                       |                       | [X]      |
-|                       |                       |                       | __init__.py           |                       | [X]      |
-|                       |                       |                       | file_processor.py     |                       | [X]      |
-|                       |                       |                       | pdf_parser.py         |                       | [X]      |
-|                       |                       | config.py             |                       |                       | [X]      |
-|                       | requirements.txt      |                       |                       |                       | [ ]      |
-|                       | Dockerfile            |                       |                       |                       | [X]      |
-| **frontend/**         |                       |                       |                       |                       | [X]      |
-|                       | **public/**           |                       |                       |                       | [X]      |
-|                       |                       | index.html            |                       |                       | [ ]      |
-|                       |                       | favicon.ico           |                       |                       | [ ]      |
-|                       |                       | manifest.json         |                       |                       | [ ]      |
-|                       | **src/**              |                       |                       |                       | [X]      |
-|                       |                       | **components/**       |                       |                       | [X]      |
-|                       |                       |                       | **ui/**               |                       | [X]      |
-|                       |                       |                       |                       | card.jsx              | [ ]      |
-|                       |                       |                       |                       | button.jsx            | [ ]      |
-|                       |                       |                       | **Dashboard/**        |                       | [X]      |
-|                       |                       |                       |                       | Dashboard.jsx         | [ ]      |
-|                       |                       |                       |                       | ChartComponent.jsx    | [ ]      |
-|                       |                       |                       | **Transactions/**     |                       | [X]      |
-|                       |                       |                       |                       | TransactionList.jsx   | [ ]      |
-|                       |                       |                       |                       | TransactionFilters.jsx| [ ]      |
-|                       |                       |                       | **Upload/**           |                       | [X]      |
-|                       |                       |                       |                       | FileUpload.jsx        | [X]      |
-|                       |                       |                       |                       | UploadStatus.jsx      | [X]      |
-|                       |                       | **pages/**            |                       |                       | [X]      |
-|                       |                       |                       | HomePage.jsx          |                       | [X]      |
-|                       |                       |                       | DashboardPage.jsx     |                       | [X]      |
-|                       |                       |                       | TransactionsPage.jsx  |                       | [X]      |
-|                       |                       |                       | UploadPage.jsx        |                       | [X]      |
-|                       |                       | **services/**         |                       |                       | [X]      |
-|                       |                       |                       | api.js                |                       | [ ]      |
-|                       |                       |                       | auth.js               |                       | [ ]      |
-|                       |                       |                       | storage.js            |                       | [ ]      |
-|                       |                       | **utils/**            |                       |                       | [X]      |
-|                       |                       |                       | formatters.js         |                       | [ ]      |
-|                       |                       |                       | validators.js         |                       | [ ]      |
-|                       |                       | App.js                |                       |                       | [X]      |
-|                       |                       | index.js              |                       |                       | [ ]      |
-|                       | package.json          |                       |                       |                       | [ ]      |
-|                       | Dockerfile            |                       |                       |                       | [X]      |
-| docker-compose.yml    |                       |                       |                       |                       | [X]      |
-| README.md             |                       |                       |                       |                       | [X]      |
-| .gitignore            |                       |                       |                       |                       | [ ]      |
-| nginx.conf            |                       |                       |                       |                       | [X]      |
+| **backend/**          |                       |                       |                       |                       |    [x]   |
+|                       | **app/**              |                       |                       |                       |    [x]   |
+|                       |                       | __init__.py           |                       |                       |    [x]   |
+|                       |                       | models.py             |                       |                       |    [x]   |
+|                       |                       | **routes/**           |                       |                       |    [x]   |
+|                       |                       |                       | __init__.py           |                       |    [x]   |
+|                       |                       |                       | auth.py               |                       |    [x]   |
+|                       |                       |                       | upload.py             |                       |    [x]   |
+|                       |                       |                       | dashboard.py          |                       |    [x]   |
+|                       |                       | **utils/**            |                       |                       |    [x]   |
+|                       |                       |                       | __init__.py           |                       |    [x]   |
+|                       |                       |                       | file_processor.py     |                       |    [x]   |
+|                       |                       |                       | pdf_parser.py         |                       |    [x]   |
+|                       |                       | config.py             |                       |                       |    [x]   |
+|                       | requirements.txt      |                       |                       |                       |    [ ]   |
+|                       | Dockerfile            |                       |                       |                       |    [x]   |
+| **frontend/**         |                       |                       |                       |                       |    [x]   |
+|                       | **public/**           |                       |                       |                       |    [x]   |
+|                       |                       | index.html            |                       |                       |    [ ]   |
+|                       |                       | favicon.ico           |                       |                       |    [ ]   |
+|                       |                       | manifest.json         |                       |                       |    [ ]   |
+|                       | **src/**              |                       |                       |                       |    [x]   |
+|                       |                       | **components/**       |                       |                       |    [x]   |
+|                       |                       |                       | **ui/**               |                       |    [x]   |
+|                       |                       |                       |                       | card.jsx              |    [ ]   |
+|                       |                       |                       |                       | button.jsx            |    [ ]   |
+|                       |                       |                       | **Dashboard/**        |                       |    [x]   |
+|                       |                       |                       |                       | Dashboard.jsx         |    [ ]   |
+|                       |                       |                       |                       | ChartComponent.jsx    |    [ ]   |
+|                       |                       |                       | **Transactions/**     |                       |    [x]   |
+|                       |                       |                       |                       | TransactionList.jsx   |    [ ]   |
+|                       |                       |                       |                       | TransactionFilters.jsx|    [ ]   |
+|                       |                       |                       | **Upload/**           |                       |    [x]   |
+|                       |                       |                       |                       | FileUpload.jsx        |    [x]   |
+|                       |                       |                       |                       | UploadStatus.jsx      |    [x]   |
+|                       |                       | **pages/**            |                       |                       |    [x]   |
+|                       |                       |                       | HomePage.jsx          |                       |    [x]   |
+|                       |                       |                       | DashboardPage.jsx     |                       |    [x]   |
+|                       |                       |                       | TransactionsPage.jsx  |                       |    [x]   |
+|                       |                       |                       | UploadPage.jsx        |                       |    [x]   |
+|                       |                       | **services/**         |                       |                       |    [x]   |
+|                       |                       |                       | api.js                |                       |    [ ]   |
+|                       |                       |                       | auth.js               |                       |    [ ]   |
+|                       |                       |                       | storage.js            |                       |    [ ]   |
+|                       |                       | **utils/**            |                       |                       |    [x]   |
+|                       |                       |                       | formatters.js         |                       |    [ ]   |
+|                       |                       |                       | validators.js         |                       |    [ ]   |
+|                       |                       | App.js                |                       |                       |    [x]   |
+|                       |                       | index.js              |                       |                       |    [ ]   |
+|                       | package.json          |                       |                       |                       |    [ ]   |
+|                       | Dockerfile            |                       |                       |                       |    [x]   |
+| docker-compose.yml    |                       |                       |                       |                       |    [x]   |
+| README.md             |                       |                       |                       |                       |    [x]   |
+| .gitignore            |                       |                       |                       |                       |    [ ]   |
+| nginx.conf            |                       |                       |                       |                       |    [x]   |
 
 ---
 
